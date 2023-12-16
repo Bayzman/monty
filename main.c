@@ -42,5 +42,6 @@ int main(int argc, string argv[])
 	}
 	free_dlist(stack);
 	fclose(file);
-return (0);
+
+	return (0);
 }
