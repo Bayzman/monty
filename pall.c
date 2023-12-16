@@ -3,14 +3,14 @@
 /**
  * i_pall - prints the stack
  * @head: stack head
- * @counter: no used
- * Return: no return
+ * @counter: not used
+ * Return: void
 */
 
 void i_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
-	(void) counter;
+	(void)counter;
 
 	h = *head;
 	if (h == NULL)

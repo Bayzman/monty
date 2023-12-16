@@ -3,12 +3,18 @@
 /**
  * i_push - push data to the top of a stack
  * @head: the head of a stack double ll
- * @counter: line number parsed
+ * @counter: line number
+ * Return: void
  */
 
 void i_push(stack_t **head, unsigned int counter)
 {
-	int n, j = 0, flag = 0;
+	int n;
+	int j;
+	int flag;
+
+	j = 0;
+	flag = 0;
 
 	if (buf.arg)
 	{
