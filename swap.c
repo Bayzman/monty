@@ -3,10 +3,10 @@
 /**
  * i_swap - swap the top and the next data
  * @head: head of the dll
- * @counter: counter
+ * @counter: counter (line number)
  */
 
-void _swap(stack_t **head, unsigned int counter)
+void i_swap(stack_t **head, unsigned int counter)
 {
 	stack_t *tmp;
 	int num;
