@@ -26,7 +26,8 @@ void i_push(stack_t **head, unsigned int counter)
 				flag = 1;
 		}
 		if (flag == 1)
-		{fprintf(stderr, "L%d: usage: push integer\n", counter);
+		{
+			fprintf(stderr, "L%d: usage: push integer\n", counter);
 			fclose(buf.file);
 			free(buf.command);
 			free_dlist(*head);
