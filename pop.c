@@ -3,7 +3,7 @@
 /**
  * i_pop - rempves the top element of dll
  * @head: head of dll
- * @line_number: line number
+ * @counter: line number
  */
 
 void i_pop(stack_t **head, unsigned int counter)
